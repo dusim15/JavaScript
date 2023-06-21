@@ -1,0 +1,199 @@
+.modal-container {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: white;
+  width: 25em;
+}
+
+.modal .btn {
+  display: block;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+
+.form-group label {
+  margin-bottom: 0.2rem;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #df4759;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.App {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-bar-container {
+  padding-top: 20vh;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
+.input-wrapper {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: royalblue;
+}
+
+.search-result {
+  padding: 10px 20px;
+}
+
+.search-result:hover {
+  background-color: #efefef;
+}
+
+.results-list {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #faf9f6;
+}
+
+.btn {
+  margin-top: 1rem;
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px #ccc;
+}
+
+.container {
+  width: "100%",
+}
+
+.searchTitle {
+  font-family: Helvetica, sans-serif;
+  font-size: Large;
+  color: primary;
+}
+
+.noOfSearchedJobs {
+  font-family: Helvetica, sans-serif;
+  margin-top: 2;
+  font-size: 12;
+  color: #000;
+}
+.loaderContainer {
+  margin-top: medium;
+}
+.footerContainer {
+  margin-top: small;
+  justify-content: 'center';
+  align-items: 'center';
+  flex-direction: 'row';
+  gap: 10
+}
+.paginationButton {
+  width: 30;
+  height: 30;
+  border-radius: 5;
+  justify-content: 'center';
+  align-items: 'center';
+  background-color: #fce3ff;
+}
+
+.paginationImage {
+  width: '60%';
+  height: '60%';
+  outline-color: #f1b1de;
+}
+
+.paginationTextBox {
+  width: 30;
+  height: 30;
+  border-radius: 2;
+  justify-content: 'center';
+  align-items: 'center';
+  background-color: white;
+}
+
+.paginationText {
+  font-family: Helvetica, sans-serif;
+  font-size: 20;
+  color: #f8d7da;
+}
